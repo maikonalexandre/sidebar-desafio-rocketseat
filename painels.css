@@ -1,0 +1,54 @@
+.col-b #painelbuscar{
+    display: none;
+    visibility: hidden;
+}
+.col-b #painelbuscar.active{
+    display: block;
+    visibility:visible ;
+    padding: 1rem 3rem 0 0;
+}
+.col-b #paineldashboard{
+    display: none;
+    visibility: hidden;
+}
+.col-b #paineldashboard.active{
+    display: block;
+    visibility:visible ;
+    padding: 1rem 3rem 0 0;
+}
+.col-b #painelpets{
+    display: none;
+    visibility: hidden;
+}
+.col-b #painelpets.active{
+    display: block;
+    visibility:visible ;
+    padding: 1rem 3rem 0 0;
+}
+.col-b #painelclientes{
+    display: none;
+    visibility: hidden;
+}
+.col-b #painelclientes.active{
+    display: block;
+    visibility:visible ;
+    padding: 1rem 3rem 0 0;
+}
+.col-b #painelvets{
+    display: none;
+    visibility: hidden;
+}
+.col-b #painelvets.active{
+    display: block;
+    visibility:visible ;
+    padding: 1rem 3rem 0 0;
+}
+.col-b #painelajustes{
+    display: none;
+    visibility: hidden;
+}
+.col-b #painelajustes.active{
+    display: block;
+    visibility:visible ;
+    padding: 1rem 3rem 0 0;
+}

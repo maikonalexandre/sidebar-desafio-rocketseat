@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Poppins:wght@300;400;500&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="painels.css">
+<link rel="stylesheet" href="coluna_b.css">
+
+<script src="index.js" defer></script>
+
+</head>
+<body>
+    <div id="container" class="noexpand">
+
+<div class="col-a">
+<button class="side-btn logo-menu" onclick="expend()"><img class="logo" src="./images/logo.svg" alt=""><img src="./images/menu.svg" alt=""></button>
+
+
+<!--BOTOES DO MENU-->
+
+<button id="btn_buscar" onclick="activePainel(this)" class="side-btn"><img src="./images/search.svg" alt=""><p class="title-btn">Buscar</p></button>
+
+<button id="btn_dashboard" onclick="activePainel(this)" class="side-btn"><img src="./images/grid.svg" alt=""><p class="title-btn">Dashboard</p></button>
+
+<button class="side-btn"onclick="activePainel(this)" id="btn_pets"><img src="./images/pet.svg" alt=""><p class="title-btn">Pets</p></button>
+
+<button class="side-btn"onclick="activePainel(this)" id="btn_clientes"><img src="./images/user.svg" alt=""><p class="title-btn">Clientes</p></button>
+
+<button id="btn_vets"class="side-btn"onclick="activePainel(this)"><img src="./images/vet.svg" alt=""><p class="title-btn">Vets</p></button>
+
+<button id="btn_ajustes"class="side-btn"onclick="activePainel(this)"><img src="./images/settings.svg" alt=""><p class="title-btn">Ajustes</p></button>
+
+
+<!--FIM BOTOES-->
+
+<button class="exit">
+    <img class="foto" src="./images/avatar.png" alt="">
+    <div class="text-btn-exit">
+    <h4>Eleanor Pena</h4>
+    <p>Veterinaria</p>
+    </div>
+    <img class="log-out" src="./images/log-out.svg" alt=""></button>
+
+</div>
+<div id="col-b" class="col-b">
+    <div class="logo">
+    <h1>Asteca io</h1>
+</div>
+
+<!--PAINELS======================-->
+<div class="contentpanels">
+<div id="painelbuscar" class="painel">
+<h1>Pesquisa:</h1>
+<form>
+
+    <input type="text">
+    <button>Pesquisar</button>
+    
+            <table>
+        <thead>
+    <tr>
+            <td>Nome</td>
+            <td>Dono</td>
+            <td>Veterinario</td>
+        </tr>
+        </thead>
+        <tbody>
+<tr>
+    <td>Lila</td>
+    <td>Marcelo Augusto</td>
+    <td>Claudio</td>
+</tr>
+<tr>
+    <td>Naja</td>
+    <td>Kaique Moreira</td>
+    <td>Eleanor</td>
+</tr>
+<tr>
+    <td>Potter</td>
+    <td>Breno Xaves</td>
+    <td>Claudio</td>
+</tr>
+<tr>
+    <td>Rex</td>
+    <td>Breno Xaves</td>
+    <td>Ricardo</td>
+</tr>
+        </tbody>
+    </table>
+
+  </form>
+</div>
+<!--PAINELS======================-->
+<div id="paineldashboard"  class="painel">
+    <h1>Dashboard:</h1>
+</div>
+<!--PAINELS======================-->
+<div id="painelpets" class="painel" >
+    <h1>Pets:</h1>
+</div>
+<!--PAINELS======================-->
+<div id="painelclientes" class="painel">
+    <h1>Clientes:</h1>
+</div>
+<!--PAINELS======================-->
+<div id="painelvets" class="painel">
+    <h1>Veterinarios:</h1>
+</div>
+<!--PAINELS======================-->
+<div id="painelajustes" class="painel">
+    <h1>Ajustes:</h1>
+</div>
+<!--PAINELS======================-->
+</div>
+
+</div>
+    </div>
+</body>
+</html>
